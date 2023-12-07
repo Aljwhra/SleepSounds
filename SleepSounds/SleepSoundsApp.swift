@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SleepSoundsApp: App {
+    @StateObject var audioManager = AudioManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchScreenView()
+             .environmentObject(audioManager)
         }
     }
 }
+
