@@ -14,12 +14,12 @@ struct OnBoardingView : View {
     
     let OnBoardingArray : [OnBoarding ] = [
         OnBoarding(image: "Image",
-                   title: NSLocalizedString("Exclusive-string", comment: "this is the transulater for Exclusive-string"),
-                   subTitle:NSLocalizedString("We have an author's library of sounds that you will not find anywhere else-string",comment:"this is the transulater for We have an author's library of sounds that you will not find anywhere else-string")),
+                   title: NSLocalizedString("Exclusive-string",comment:"this is the transulater for Exclusive-string"),
+                   subTitle:NSLocalizedString("Our sounds help you relax and prepare your mind and body for sleep Our sounds are carefully selected-string",comment:"this is the transulater for Our sounds help you relax and prepare your mind and body for sleep.Our sounds are carefully selected-strin")),
         
         OnBoarding(image: "Image 1",
-                   title: NSLocalizedString("Relax sleep sounds", comment:"this is the transulater for Relax sleep sounds-string"),
-                   subTitle: NSLocalizedString("Our sounds will help to relax and improve your sleep health-string",comment:"this is the transulater for Our sounds will help to relax and improve your sleep health-string")),
+                   title: NSLocalizedString("Relax sleep sounds-string",comment:"this is the transulater for Relax sleep sounds-string"),
+                   subTitle: NSLocalizedString("The sound will help you relax improve your sleep health and relieve insomnia-string",comment:"this is the transulater for Our sounds will help to relax and improve your sleep health-string")),
         
         OnBoarding(image: "Image 2",
                    title: NSLocalizedString ("Story for kids-string",comment:"this is the transulater for Story for kids-string"),

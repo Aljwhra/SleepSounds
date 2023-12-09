@@ -8,7 +8,7 @@ struct ProfileAuthorization: View {
         VStack(alignment: .leading, spacing: 24) { }
             .padding(.horizontal, 40)
             .padding(.vertical, 24)
-            .frame(width: 343, height: 252, alignment: .leading)
+            .frame(width: 360, height: 260, alignment: .leading)
             .background(.primery)
             .cornerRadius(24)
             .overlay{
@@ -22,16 +22,17 @@ struct ProfileAuthorization: View {
                         .frame(width: 72, height: 72)
                     
                     Text("Authorization-string")
-                        .font(Font.custom("SF Pro Rounded", size: 17).weight(.semibold))
+                        .font(.title2)
+                        .bold()
                         .multilineTextAlignment(.center)
                         .foregroundColor(.white)
                         .frame(width: 263, alignment: .center)
                     
-                    Text("In order to access the library of favorite packs \nof sounds, log in with Apple ID-string")
-                        .font(Font.custom("SF Pro Rounded", size: 13))
+                    Text("To access all your favorite sounds, signin-string")
+                    .font(.caption)
                         .multilineTextAlignment(.center)
-                        .foregroundColor(Color(red: 0.92, green: 0.92, blue: 0.96).opacity(0.6))
-                        .frame(width: 263, alignment: .top)
+                        .foregroundColor(Color.gray)
+
                     
                     Button(action:{
                         isActive = true
@@ -42,25 +43,23 @@ struct ProfileAuthorization: View {
                             
                             HStack{
                                 
-                                Text("Login with Apple ID-string")
+                                Text("Login with Email-string")
                                     .bold()
                                     .padding(.leading)
                                     .foregroundColor(.white)
                                     .bold()
-                                    .font(.title3)
+                                    .font(.subheadline)
                                     .frame(width: 311, height: 50, alignment: .center)
                                     .background(Color(.back))
-                                    .cornerRadius(100)
-                                    .background(RoundedRectangle(cornerRadius: 30)
-                                        .foregroundColor(Color.white))
-                                    .overlay(
-                                        Image(systemName: "apple.logo")
-                                            .resizable()
-                                            .scaledToFit()
-                                            .frame(width:22,height: 22)
-                                            .padding(.trailing,195)
-                                            .padding(.bottom,6)
-                                            .foregroundColor(.white))
+                                    .cornerRadius(10)
+//                                    .overlay(
+//                                        Image(systemName: "apple.logo")
+//                                            .resizable()
+//                                            .scaledToFit()
+//                                            .frame(width:22,height: 22)
+//                                            .padding(.trailing,195)
+//                                            .padding(.bottom,6)
+//                                            .foregroundColor(.white))
                                            .padding()
                             }
                         }

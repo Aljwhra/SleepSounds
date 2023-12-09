@@ -29,10 +29,10 @@ struct LaunchScreenView: View {
                         .resizable()
                         .frame(width:104, height: 126)
                       
-                    
                     VStack{
                       
-                        Text("Sleep Sounds ")
+                        Text("Sleep Sounds")
+                            .multilineTextAlignment(.leading)
                             .font(.largeTitle)
                             .bold()
                             .foregroundColor(.white.opacity(0.90))

@@ -8,17 +8,14 @@
 import SwiftUI
 
 struct DiscoverButton: View {
-    
-//    var theButton: DiscoverButtonModel
-//    var isSelected: Bool
-  
+      
   @Binding var selectedFilter: FilterType
     
     var body: some View {
         HStack{
             
             Button(action: {
-                selectedFilter = .all
+                selectedFilter = .All
             }, label: {
                 HStack{
                     Image("icons8")
@@ -30,7 +27,7 @@ struct DiscoverButton: View {
                 .padding(.leading, 8)
                 .padding(.trailing, 16)
                 .padding(.vertical, 8)
-                .background(selectedFilter == .all ? Color("SecondaryColor") : Color("PrimeryColor"))
+                .background(selectedFilter == .All ? Color("SecondaryColor") : Color("PrimeryColor"))
                 .cornerRadius(19)
 
                    
@@ -38,9 +35,8 @@ struct DiscoverButton: View {
             
             
             
-            
             Button(action: {
-                selectedFilter = .ambient
+                selectedFilter = .Ambient
             }, label: {
                 HStack{
                     Image("meditation")
@@ -52,16 +48,33 @@ struct DiscoverButton: View {
                 .padding(.leading, 8)
                 .padding(.trailing, 16)
                 .padding(.vertical, 8)
-                .background(selectedFilter == .ambient ? Color("SecondaryColor") : Color("PrimeryColor"))
+                .background(selectedFilter == .Ambient ? Color("SecondaryColor") : Color("PrimeryColor"))
+                .cornerRadius(19)
+
+                   
+            })
+            Button(action: {
+                selectedFilter = .Music
+            }, label: {
+                HStack{
+                    Image(systemName:"music.note")
+                    Text("Music")
+                    .foregroundStyle(.white)
+                    .font(.headline)
+                    
+                }
+                .padding(.leading, 8)
+                .padding(.trailing, 16)
+                .padding(.vertical, 8)
+                .background(selectedFilter == .Music ? Color("SecondaryColor") : Color("PrimeryColor"))
                 .cornerRadius(19)
 
                    
             })
             
             
-            
             Button(action: {
-                selectedFilter = .forKids
+                selectedFilter = .ForKids
             }, label: {
                 HStack{
                     Image("infant")
@@ -73,16 +86,15 @@ struct DiscoverButton: View {
                 .padding(.leading, 8)
                 .padding(.trailing, 16)
                 .padding(.vertical, 8)
-                .background(selectedFilter == .forKids ? Color("SecondaryColor") : Color("PrimeryColor"))
+                .background(selectedFilter == .ForKids ? Color("SecondaryColor") : Color("PrimeryColor"))
                 .cornerRadius(19)
 
                    
             })
            
-                        
             
         }
-       // .frame(width: 370, alignment: .leading)
+      
            
     }
 }

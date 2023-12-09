@@ -8,7 +8,7 @@ struct ProfileViewLogout: View {
         VStack(alignment: .leading, spacing: 24) { }
             .padding(.horizontal, 40)
             .padding(.vertical, 24)
-            .frame(width: 343, height: 252, alignment: .leading)
+            .frame(width: 360, height: 260, alignment: .leading)
             .background(.primery)
             .cornerRadius(24)
             .overlay{
@@ -28,7 +28,7 @@ struct ProfileViewLogout: View {
                         .foregroundColor(.white)
                         .frame(width: 263, alignment: .center)
                     
-                     Text("Login with Apple ID\nemail@gmail.com-string")
+                     Text("Login with Email\nemail@gmail.com-string")
                         .font(Font.custom("SF Pro Rounded", size: 13))
                         .multilineTextAlignment(.center)
                         .foregroundColor(.gray)
@@ -49,7 +49,8 @@ struct ProfileViewLogout: View {
                             
                         }
                     }) .fullScreenCover(isPresented: $isActive){
-                      LogineView()}
+                        ProfileLogin()
+                    }
                     .padding()
                     
                 }

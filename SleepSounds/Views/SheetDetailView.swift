@@ -9,13 +9,12 @@ import SwiftUI
 
 struct SheetDetailView: View {
     
-    
-    
     @State var audioCard: AudioCardModel
     @State private var showPlayer = false
+    @State private var isFavorite = false
     
     
-    var body: some View {
+    var body: some View{
         
             
             VStack(spacing: 15){
@@ -56,28 +55,9 @@ struct SheetDetailView: View {
                     .fullScreenCover(isPresented: $showPlayer){
                         PlayerAudioView(audioCard: audioCard)
                     }
-                    //                .sheet(isPresented: $showPlayer){
-                    //
-                    //                    ZStack{
-                    //                        Color("backColor")
-                    //                            .ignoresSafeArea()
-                    //                        VStack{
-                    //                            Text("hi")
-                    //                                .font(.title)
-                    //                                .foregroundStyle(.white)
-                    //                        }
-                    //
-                    //
-                    //                        //  .presentationDragIndicator(.hidden)
-                    //                    }
-                    //                    .presentationDetents([.fraction(0.90), .fraction(0.90)])
-                    //                }
-                    
-                    
-                    
-                    
+                  
                     Button{
-                        
+                        isFavorite = true
                     } label: {
                      
                         Label("Favorite" , systemImage: "star.fill")
@@ -86,6 +66,8 @@ struct SheetDetailView: View {
                         .frame(width: 164, alignment: .center)
                         .background(Color("PrimeryColor"))
                         .cornerRadius(20)
+                    }.fullScreenCover(isPresented: $isFavorite) {
+                        FavoriteViwe()
                     }
                     
                 }
@@ -100,11 +82,11 @@ struct SheetDetailView: View {
                 
                 VStack(alignment: .leading){
                     
-                    Text("About this pack")
+                    Text("About this audio")
                         .font(.title3)
                         .bold()
                         .foregroundStyle(.white)
-                    Text("An acoustic mix has been specially selected for you. The camping atmosphere will help you improve your sleep and your body as a whole. Your dreams will be delightful and vivid.")
+                    Text("An audio clip has been selected especially for you. This will help you improve your sleep and your body as a whole. Your dreams will be cheerful and vivid.-string")
                         .multilineTextAlignment(.leading)
                         .font(.callout)
                         .foregroundStyle(.white)

@@ -1,51 +1,102 @@
-//OnBoarding
+// OnBoarding
+"Sleep Sounds"="أصوات للنوم";
+
 "Exclusive-string"="الأصوات الحصرية";
-"We have an author's library of sounds that you will not find anywhere else-string"="لدينا مكتبة مؤلفة من الأصوات التي لن تجدها في أي مكان آخر";
-  "Relax sleep sounds-srring"="أصوات النوم الإسترخائية";
-"Our sounds will help to relax and improve your sleep health-string"="سوف تساعد أصواتنا على الاسترخاء وتحسين صحة نومك";
+"Our sounds help you relax and prepare your mind and body for sleep Our sounds are carefully selected-string"="لدينا أصوات تساعدك على الاسترخاء وإعداد عقلك وجسمك للنوم يتم اختيار الأصوات لدينا بعناية";
+
+"Relax sleep sounds-string"="أصوات النوم الإسترخائية";
+"The sound will help you relax improve your sleep health and relieve insomnia-string"="سيساعدك الصوت على الاسترخاء وتحسين صحة نومك وتخفيف الأرق";
+
 "Story for kids-string"="قصة للأطفال";
 "Famous fairy tales with soothing sounds will help your children fall asleep faster-string"="الحكايات الخيالية الشهيرة ذات الأصوات الهادئة ستساعد أطفالك على النوم بشكل أسرع";
+
 "Next-string"="التالي";
-"Start-string"="ابدا";
-"Login with Apple-string"="تسجيل الدخول بحساب ابل";
-  
-//ProfileLogin
+"Start-string"="أبدا";
+
+"Login with Email-string"="تسجيل الدخول باستخدام البريد الإلكتروني";
+
+// ProfileLogin
 "Profile-string"="الملف الشخصي";
 "Get premium-string"="احصل على الأفضل";
 "Favorite-string"="المفضلة";
 "Privacy policy-string"="سياسةالخصوصية";
 "License Agreemen-string"="اتفاقية التراخيص";
 
-//LogineView
-"Apple ID-string"="حساب ابل";
+// LogineView
+"Enter Your Email-string"="أدخل بريدك الإلكتروني";
 "Password-string"="الرمز السري";
 "Login-string"="تسجيل الدخول";
 
-//GetPremiumView
+
+// CreateAccountView
+"Enter Your Name-string" = "أدخل أسمك";
+"Create Account-string" = "إنشاء حساب";
+
+// GetPremiumView
 "Get Premium-string"="احصل على الأفضل";
-"Auto-renewable\nsubscription at $%/week-string"="تجديد الإشتراك تلقائياً بسعر دولار لكل اسبوع";
+"Auto-renewable subscription at 3 SAR per week-string"="اشتراك يتجدد تلقائياً بـ 3 ريال سعودي في الأسبوع";
 "Private Policy-string"="سياسة الخصوصية";
 "Terms of Use-string"="شروط الخدمة";
 "Restore-string"="إستعادة";
 
-//ProfileAuthorization
+// ProfileAuthorization
 "Authorization-string"="تفويض";
-"In order to access the library of favorite packs \nof sounds, log in with Apple ID-string"="من أجل الوصول إلى مكتبة حزمة الأصوات المفضلة سجل دخولك بإستخدام حساب ابل ";
-"Login with Apple ID-string"="تسجيل الدخول باستخدام حساب ابل";
+"To access all your favorite sounds, signin-string"="للوصول إلى جميع الأصوات المفضلة لديك، قم بتسجيل الدخول";
+"Login with Email-string"="تسجيل الدخول باستخدام البريد الإلكتروني";
 
-//ProfileViewLogout
+// ProfileViewLogout
 "First name Last name-string"="الاسم الأول واسم العائلة";
-"Login with Apple ID\nemail@gmail.com-string"="تسجيل الدخول باستخدام حساب أبل";
-
-//PremiumView
+"Login with Email\nemail@gmail.com-string"="تسجيل الدخول باستخدام البريد الإلكتروني";
+// PremiumView
 "Unlock 50+ Songs-string"="فتح أكثر من 50 أغنية";
 "Unlock All Sounds-string"="فتح جميع الأصوات";
 "Unlock All Fairy Tales-string"="فتح جميع القصص الخيالية";
 
-//SubscribeButton
-"Subscribe for $%/week-string"="إشترك بمبلغ دولار لكل أسبوع";
+// SubscribeButton
+"Subscribe for 3 SAR per week"="الاشتراك بـ 3 ريال في الأسبوع";
 
-//AlartButton
+// AlartButton
 "Logout-string"="تسجيل الخروج";
 "Are you sure you want to log out?-string"="هل أنت متأكد أنك تريد تسجيل الخروج؟";
 "Cancel-string"="إلغاء";
+
+
+//DiscoverView
+"Discover" = "اكتشف";
+"Profile" = "الملف الشخصي";
+"Audio Title"="العنوان";
+"Audio Description"="الوصف";
+"Rainstorm"="عاصفة مطرية";
+"Ambient"="بيئي";
+"Music" = "موسيقى";
+"Cheese Moon"="قمر الجبن";
+"Story For Kids"="قصة للأطفال";
+"Twinkle"="تألق";
+"Song For Kids"="أغنية للأطفال";
+"Wood Burning"="حرق الخشب";
+"Pirate Misfortune"="مصيبة القرصان";
+"Chill hop Music"="موسيقى Chill hop";
+"Forest wind"="رياح الغابة";
+"River"="نهر";
+"Lofi Music"="موسيقى Lofi";
+"Yost the ghost"="يوست الشبح";
+"Ocean Waves"="أمواج البحر";
+"Airplane Mod"="وضع الطائرة";
+"Adventures in Alaska"="مغامرات في ألاسكا";
+"Lullaby Goodnight"="تصبح على خير";
+
+
+// SheetDetailView
+"Play" = "تشغيل";
+"Favorite" = "مفضله";
+"About this audio"= "حول هذا الصوت";
+"An audio clip has been selected especially for you. This will help you improve your sleep and your body as a whole. Your dreams will be cheerful and vivid.-string" = "لقد تم اختيار مقطع صوتي خصيصًا لك. سيساعدك هذا على تحسين نومك وجسمك ككل. ستكون أحلامك مبهجة وحيوية.";
+
+// DiscoverButton
+
+"All" = "الكل";
+"Ambient"="بيئي";
+"Music" = "موسيقى";
+"For Kids" = "للأطفل";
+
+

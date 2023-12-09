@@ -27,7 +27,7 @@ struct TabBarView: View {
                     Text("Profile")
                 }
         }
-        .background(Color("PrimeryColor")) // Set the background color of the TabView
+       .background(Color("PrimeryColor")) // Set the background color of the TabView
     }
 }
 

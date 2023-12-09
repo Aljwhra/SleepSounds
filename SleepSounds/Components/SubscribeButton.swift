@@ -17,7 +17,7 @@ struct SubscribeButton: View {
                     
                     HStack{
                         
-                        Text("Subscribe for $%/week-string")
+                        Text("Subscribe for 3 SAR per week")
                             .font(Font.custom("SF Pro Rounded", size: 17)
                                 .weight(.semibold))
                             .foregroundColor(.white)

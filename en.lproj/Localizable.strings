@@ -1,51 +1,104 @@
-//OnBoarding
-"Exclusive-string"="الأصوات الحصرية";
-"We have an author's library of sounds that you will not find anywhere else-string"="لدينا مكتبة مؤلفة من الأصوات التي لن تجدها في أي مكان آخر";
-  "Relax sleep sounds-srring"="أصوات النوم الإسترخائية";
-"Our sounds will help to relax and improve your sleep health-string"="سوف تساعد أصواتنا على الاسترخاء وتحسين صحة نومك";
-"Story for kids-string"="قصة للأطفال";
-"Famous fairy tales with soothing sounds will help your children fall asleep faster-string"="الحكايات الخيالية الشهيرة ذات الأصوات الهادئة ستساعد أطفالك على النوم بشكل أسرع";
-"Next-string"="التالي";
-"Start-string"="ابدا";
-"Login with Apple-string"="تسجيل الدخول بحساب ابل";
-  
-//ProfileLogin
-"Profile-string"="الملف الشخصي";
-"Get premium-string"="احصل على الأفضل";
-"Favorite-string"="المفضلة";
-"Privacy policy-string"="سياسةالخصوصية";
-"License Agreemen-string"="اتفاقية التراخيص";
+// OnBoarding
+"Sleep Sounds"="Sleep Sounds";
 
-//LogineView
-"Apple ID-string"="حساب ابل";
-"Password-string"="الرمز السري";
-"Login-string"="تسجيل الدخول";
+"Exclusive-string"="Exclusive";
+"Our sounds help you relax and prepare your mind and body for sleep Our sounds are carefully selected-string"="Our sounds help you relax and prepare your mind and body for sleep. Our sounds are carefully selected.";
 
-//GetPremiumView
-"Get Premium-string"="احصل على الأفضل";
-"Auto-renewable\nsubscription at $%/week-string"="تجديد الإشتراك تلقائياً بسعر دولار لكل اسبوع";
-"Private Policy-string"="سياسة الخصوصية";
-"Terms of Use-string"="شروط الخدمة";
-"Restore-string"="إستعادة";
+"Relax sleep sounds-string"="Relaxing Sleep Sounds";
+"The sound will help you relax improve your sleep health and relieve insomnia-string"="The sound will help you relax, improve your sleep health, and relieve insomnia.";
 
-//ProfileAuthorization
-"Authorization-string"="تفويض";
-"In order to access the library of favorite packs \nof sounds, log in with Apple ID-string"="من أجل الوصول إلى مكتبة حزمة الأصوات المفضلة سجل دخولك بإستخدام حساب ابل ";
-"Login with Apple ID-string"="تسجيل الدخول باستخدام حساب ابل";
+"Story for kids-string"="Story for Kids";
+"Famous fairy tales with soothing sounds will help your children fall asleep faster-string"="Famous fairy tales with soothing sounds will help your children fall asleep faster.";
 
-//ProfileViewLogout
-"First name Last name-string"="الاسم الأول واسم العائلة";
-"Login with Apple ID\nemail@gmail.com-string"="تسجيل الدخول باستخدام حساب أبل";
+"Next-string"="Next";
+"Start-string"="Start";
 
-//PremiumView
-"Unlock 50+ Songs-string"="فتح أكثر من 50 أغنية";
-"Unlock All Sounds-string"="فتح جميع الأصوات";
-"Unlock All Fairy Tales-string"="فتح جميع القصص الخيالية";
+"Login with Email-string"="Login with Email";
 
-//SubscribeButton
-"Subscribe for $%/week-string"="إشترك بمبلغ دولار لكل أسبوع";
+// ProfileLogin
+"Profile-string"="Profile";
+"Get premium-string"="Get Premium";
+"Favorite-string"="Favorite";
+"Privacy policy-string"="Privacy Policy";
+"License Agreemen-string"="License Agreement";
 
-//AlartButton
-"Logout-string"="تسجيل الخروج";
-"Are you sure you want to log out?-string"="هل أنت متأكد أنك تريد تسجيل الخروج؟";
-"Cancel-string"="إلغاء";
+// LogineView
+"Enter Your Email-string"="Enter Your Email";
+"Password-string"="Password";
+"Login-string"="Login";
+
+// CreateAccountView
+
+"Enter Your Name-string" = "Enter Your Name";
+"Create Account-string" = "Create Account";
+
+// GetPremiumView
+"Get Premium-string"="Get Premium";
+"Auto-renewable subscription at 3 SAR per week-string-string"="Auto-renewable subscription at 3 SAR per week";
+"Private Policy-string"="Privacy Policy";
+"Terms of Use-string"="Terms of Use";
+"Restore-string"="Restore";
+
+// ProfileAuthorization
+"Authorization-string"="Authorization";
+"To access all your favorite sounds, signin-string"="To access all your favorite sounds, signin";
+"Login with Email-string"="Login with Email";
+
+// ProfileViewLogout
+"First name Last name-string"="First name Last name";
+"Login with Email\nemail@gmail.com-string"="Login with Email\nemail@gmail.com";
+
+// PremiumView
+"Unlock 50+ Songs-string"="Unlock 50+ Songs";
+"Unlock All Sounds-string"="Unlock All Sounds";
+"Unlock All Fairy Tales-string"="Unlock All Fairy Tales";
+
+// SubscribeButton
+"Subscribe for 3 SAR per week"="Subscribe for 3 SAR per week";
+
+// AlartButton
+"Logout-string"="Logout";
+"Are you sure you want to log out?-string"="Are you sure you want to log out?";
+"Cancel-string"="Cancel";
+
+
+//DiscoverView
+"Discover" = "Discover";
+"Profile" = "Profile";
+"Audio Title"="Title";
+"Audio Description"="Description";
+"Rainstorm"="Rainstorm";
+"Ambient"="Ambient";
+"Music" = "Music";
+"Cheese Moon"="Cheese Moon";
+"Story For Kids"="Story For Kids";
+"Twinkle"="Twinkle";
+"Song For Kids"="Song For Kids";
+"Wood Burning"="Wood Burning";
+"Pirate Misfortune"="Pirate Misfortune";
+"Chill hop Music"="Chill hop Music";
+"Forest wind"="Forest wind";
+"River"="River";
+"Lofi Music"="Lofi Music";
+"Yost the ghost"="Yost the ghost";
+"Ocean Waves"="Ocean Waves";
+"Airplane Mod"="Airplane Mod";
+"Adventures in Alaska"="Adventures in Alaska";
+"Lullaby Goodnight"="Lullaby Goodnight";
+
+
+
+// SheetDetailView
+"Play" = "Play";
+"Favorite" = "Favorite";
+"About this audio"= "About this audio";
+"An audio clip has been selected especially for you. This will help you improve your sleep and your body as a whole. Your dreams will be cheerful and vivid.-string" = "An audio clip has been selected especially for you. This will help you improve your sleep and your body as a whole. Your dreams will be cheerful and vivid.";
+
+
+// DiscoverButton
+
+"All" = "All";
+"Ambient" = "Ambient";
+"For Kids" = "For Kids";
+"Music" = "Music";
+

@@ -26,9 +26,8 @@ struct AlartButton: View {
             .font(.title3)
             .frame(width: 311, height: 50, alignment: .center)
             .background(Color(.back))
-            .cornerRadius(100)
-            .background(RoundedRectangle(cornerRadius: 30)
-            .foregroundColor(Color.white))
+            .cornerRadius(10)
+          
     }
 }
                                         

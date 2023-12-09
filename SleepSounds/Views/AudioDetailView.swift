@@ -9,7 +9,6 @@ import SwiftUI
 
 struct AudioDetailView: View {
     
-    // @StateObject private var vm = AudioViewModel()
     @State var audioCard: AudioCardModel
     @State private var showSheet: Bool = true
     

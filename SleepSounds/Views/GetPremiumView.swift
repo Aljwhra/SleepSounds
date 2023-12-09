@@ -7,6 +7,7 @@ struct GetPremiumView: View {
             Color.back
                 .ignoresSafeArea(.all)
             VStack{
+                
                 Image("Top")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
@@ -21,7 +22,7 @@ struct GetPremiumView: View {
                                 .padding(.top,150)
                                 PremiumView()
                               
-                             Text("Auto-renewable\nsubscription at $%/week-string")
+                             Text("Auto-renewable subscription at 3 SAR per week-string-string")
                                 .font(Font.custom("SF Pro Rounded",size: 17)
                                 .weight(.semibold))
                                 .multilineTextAlignment(.center)
