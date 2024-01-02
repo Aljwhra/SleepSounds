@@ -1,18 +1,38 @@
 import SwiftUI
 
 struct GetPremiumView: View {
-    
+    @Environment(\.dismiss) var dismiss
     var body: some View {
         ZStack{
             Color.back
                 .ignoresSafeArea(.all)
+            
+            
+            
             VStack{
+                
+       
                 
                 Image("Top")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .padding(.bottom,300)
                     .overlay {
+                        
+                        HStack{
+                            Button{
+                                dismiss()
+                            } label: {
+                                Image(systemName: "xmark.circle.fill")
+                                    .font(.system(size: 30))
+                                    .foregroundStyle(.white)
+                            }
+                            Spacer()
+                        }
+                        .frame(alignment: .leading)
+                        .padding(.bottom,700)
+                        .padding()
+                        
                         VStack(spacing:20){
                             Text("Get Premium-string")
                                 .font(Font.custom("SF Pro Rounded", size: 40).weight(.bold))

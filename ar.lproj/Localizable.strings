@@ -10,7 +10,8 @@
 "Story for kids-string"="قصة للأطفال";
 "Famous fairy tales with soothing sounds will help your children fall asleep faster-string"="الحكايات الخيالية الشهيرة ذات الأصوات الهادئة ستساعد أطفالك على النوم بشكل أسرع";
 
-"Next-string"="التالي";
+
+"Skip-string"="تخطي";
 "Start-string"="أبدا";
 
 "Login with Email-string"="تسجيل الدخول باستخدام البريد الإلكتروني";
@@ -34,7 +35,7 @@
 
 // GetPremiumView
 "Get Premium-string"="احصل على الأفضل";
-"Auto-renewable subscription at 3 SAR per week-string"="اشتراك يتجدد تلقائياً بـ 3 ريال سعودي في الأسبوع";
+"Auto-renewable subscription at 3 SAR per week-string-string"="اشتراك يتجدد تلقائياً بـ 3 ريال سعودي في الأسبوع";
 "Private Policy-string"="سياسة الخصوصية";
 "Terms of Use-string"="شروط الخدمة";
 "Restore-string"="إستعادة";

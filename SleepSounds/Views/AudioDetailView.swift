@@ -60,6 +60,7 @@ struct AudioDetailView: View {
                     
                 }
                 .presentationDetents([.fraction(0.45), .fraction(0.85)])
+              // .interactiveDismissDisabled(true)
             }
         
     }

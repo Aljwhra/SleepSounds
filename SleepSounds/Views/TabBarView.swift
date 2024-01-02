@@ -21,13 +21,25 @@ struct TabBarView: View {
                     Image(systemName: "moon.stars.fill")
                     Text("Discover")
                 }
+            
+            
+            FavoriteView(favoritesManager: FavoritesManager())
+                .tabItem {
+                    Image(systemName: "heart.fill")
+                    Text("Favorite")
+                }
+            
             ProfileLogin()
                 .tabItem {
                     Image(systemName: "person.fill")
                     Text("Profile")
                 }
+          
+            
+            
         }
        .background(Color("PrimeryColor")) // Set the background color of the TabView
+       
     }
 }
 

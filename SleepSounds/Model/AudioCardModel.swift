@@ -7,14 +7,17 @@
 
 import SwiftUI
 
-struct AudioCardModel: Identifiable{
+struct AudioCardModel: Identifiable ,Codable{
     
-    let id = UUID()
+    var id = UUID()
     var nameImage: String
     var title: String
     var description: String
     var audio: String
     var duration: TimeInterval
+    var isFavorite: Bool 
+
+    
 }
 
 

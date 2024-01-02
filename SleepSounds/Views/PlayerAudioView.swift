@@ -5,6 +5,7 @@
 //  Created by Aljwhra Alnasser on 04/12/2023.
 //
 
+
 import SwiftUI
 
 struct PlayerAudioView: View {
@@ -17,9 +18,15 @@ struct PlayerAudioView: View {
     @Environment(\.dismiss) var dismiss
     @State var isPreview: Bool = false
     
+    @State var isFavorite: Bool = false
+    @State private var favorites: [AudioCardModel] = []
+    @ObservedObject var favoritesManager: FavoritesManager
+    
     let timer = Timer.publish(every: 0.5, on: .main, in: .common)
         .autoconnect()
     
+
+
     
     var body: some View {
         
@@ -30,18 +37,21 @@ struct PlayerAudioView: View {
             
             VStack(alignment: .center,spacing: 25){
                 
-                
-                HStack{
-                    Button{
-                        audioManager.stop()
-                        dismiss()
-                    } label: {
-                        Image(systemName: "xmark.circle.fill")
-                            .font(.system(size: 30))
-                            .foregroundStyle(.white)
+              
+           
+                    HStack{
+                        Button{
+                            audioManager.stop()
+                            dismiss()
+                        } label: {
+                            Image(systemName: "xmark.circle.fill")
+                                .font(.system(size: 30))
+                                .foregroundStyle(.white)
+                        }
+                       Spacer()
                     }
-                    Spacer()
-                }
+                   
+                
                 .padding(.bottom , 55)
                 
                 
@@ -133,10 +143,26 @@ struct PlayerAudioView: View {
                         
                         //MARK: Stop Button
                         
-                        PlaybackControlButton(systemName: "stop"){
-                            audioManager.stop()
-                            dismiss()
-                        }
+//                        PlaybackControlButton(systemName: "stop"){
+//                            audioManager.stop()
+//                            dismiss()
+//                        }
+                        
+                      
+                        
+                        Button(action: {
+                                   isFavorite.toggle()
+
+                                   // Add or remove from favorites array
+                                   if isFavorite {
+                                       favoritesManager.favorites.append(audioCard)
+                                   } else {
+                                       favoritesManager.favorites.removeAll { $0.id == audioCard.id }
+                                   }
+                               }) {
+                                   Image(systemName: isFavorite ? "heart.fill" : "heart")
+                                       .foregroundColor(isFavorite ? .orange : .gray)
+                               }
                         
                         
                     }.padding()
@@ -160,11 +186,16 @@ struct PlayerAudioView: View {
     }
 }
 
+
+
 #Preview {
-    PlayerAudioView(audioCard: AudioCardModel(nameImage: "moon", title: "Guitar Camp", description: "Ambient", audio:"WindyInForest", duration: 181))
+    PlayerAudioView(audioCard: AudioCardModel(nameImage: "moon", title: "Guitar Camp", description: "Ambient", audio:"WindyInForest", duration: 181, isFavorite: false), favoritesManager: FavoritesManager())
     .environmentObject (AudioManager())
     
 }
+
+
+
 
 
 

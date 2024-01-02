@@ -22,7 +22,8 @@
 		D2B9268B2B22765600F7A9DE /* AdventuresAlaska.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B9268A2B22765600F7A9DE /* AdventuresAlaska.mp3 */; };
 		D2B9268D2B227B3A00F7A9DE /* lullabygoodnight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B9268C2B227B3A00F7A9DE /* lullabygoodnight.mp3 */; };
 		D2B9268F2B239AFC00F7A9DE /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9268E2B239AFC00F7A9DE /* CreateAccountView.swift */; };
-		D2B926912B23B60C00F7A9DE /* FavoriteViwe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B926902B23B60C00F7A9DE /* FavoriteViwe.swift */; };
+		D2B926912B23B60C00F7A9DE /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B926902B23B60C00F7A9DE /* FavoriteView.swift */; };
+		D2B926932B23FB9600F7A9DE /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B926922B23FB9600F7A9DE /* FavoritesManager.swift */; };
 		D2D734A52B1632C600C1AA41 /* SheetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D734A42B1632C600C1AA41 /* SheetDetailView.swift */; };
 		D2DC95D72B1E5B88008B005D /* PlayerAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC95D62B1E5B88008B005D /* PlayerAudioView.swift */; };
 		D2DC95D92B1E8C4E008B005D /* PlaybackControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC95D82B1E8C4E008B005D /* PlaybackControlButton.swift */; };
@@ -56,7 +57,6 @@
 		D2E6547C2B0BEE5E0061B1BE /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E6547B2B0BEE5E0061B1BE /* DiscoverView.swift */; };
 		D2E6547E2B0CB1910061B1BE /* DiscoverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E6547D2B0CB1910061B1BE /* DiscoverButton.swift */; };
 		D2E654812B0D29EC0061B1BE /* AudioCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E654802B0D29EC0061B1BE /* AudioCard.swift */; };
-		D2E654832B0D34400061B1BE /* DiscoverButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E654822B0D34400061B1BE /* DiscoverButtonModel.swift */; };
 		D2E654852B0D4E370061B1BE /* AudioCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E654842B0D4E370061B1BE /* AudioCardModel.swift */; };
 		D2E654A02B1299610061B1BE /* AudioDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E6549F2B1299610061B1BE /* AudioDetailView.swift */; };
 /* End PBXBuildFile section */
@@ -78,7 +78,8 @@
 		D2B9268A2B22765600F7A9DE /* AdventuresAlaska.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AdventuresAlaska.mp3; sourceTree = "<group>"; };
 		D2B9268C2B227B3A00F7A9DE /* lullabygoodnight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lullabygoodnight.mp3; sourceTree = "<group>"; };
 		D2B9268E2B239AFC00F7A9DE /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
-		D2B926902B23B60C00F7A9DE /* FavoriteViwe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViwe.swift; sourceTree = "<group>"; };
+		D2B926902B23B60C00F7A9DE /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		D2B926922B23FB9600F7A9DE /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
 		D2D734A42B1632C600C1AA41 /* SheetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetDetailView.swift; sourceTree = "<group>"; };
 		D2DC95D62B1E5B88008B005D /* PlayerAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerAudioView.swift; sourceTree = "<group>"; };
 		D2DC95D82B1E8C4E008B005D /* PlaybackControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlButton.swift; sourceTree = "<group>"; };
@@ -114,7 +115,6 @@
 		D2E6547B2B0BEE5E0061B1BE /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		D2E6547D2B0CB1910061B1BE /* DiscoverButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverButton.swift; sourceTree = "<group>"; };
 		D2E654802B0D29EC0061B1BE /* AudioCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCard.swift; sourceTree = "<group>"; };
-		D2E654822B0D34400061B1BE /* DiscoverButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverButtonModel.swift; sourceTree = "<group>"; };
 		D2E654842B0D4E370061B1BE /* AudioCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCardModel.swift; sourceTree = "<group>"; };
 		D2E6549F2B1299610061B1BE /* AudioDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -200,6 +200,7 @@
 				D2E6549F2B1299610061B1BE /* AudioDetailView.swift */,
 				D2D734A42B1632C600C1AA41 /* SheetDetailView.swift */,
 				D2DC95D62B1E5B88008B005D /* PlayerAudioView.swift */,
+				D2B926902B23B60C00F7A9DE /* FavoriteView.swift */,
 				D2DC95EE2B20556F008B005D /* ProfileLogin.swift */,
 				D2DC95F02B20557A008B005D /* LogineView.swift */,
 				D2DC95F22B20558F008B005D /* ProfileLogout.swift */,
@@ -207,7 +208,6 @@
 				D2DC95F82B2055AF008B005D /* PrivacyPoliceViwe.swift */,
 				D2DC95FA2B2055B5008B005D /* LicenseAgreementView.swift */,
 				D2B9268E2B239AFC00F7A9DE /* CreateAccountView.swift */,
-				D2B926902B23B60C00F7A9DE /* FavoriteViwe.swift */,
 				D2B9265C2B21A93000F7A9DE /* TabBarView.swift */,
 			);
 			path = Views;
@@ -218,6 +218,7 @@
 			children = (
 				D2DC95DA2B1FAA0A008B005D /* AudioViewModel.swift */,
 				D2DC95DE2B1FC5DF008B005D /* AudioManager.swift */,
+				D2B926922B23FB9600F7A9DE /* FavoritesManager.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -225,7 +226,6 @@
 		D2E654752B0B7BB10061B1BE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D2E654822B0D34400061B1BE /* DiscoverButtonModel.swift */,
 				D2E654842B0D4E370061B1BE /* AudioCardModel.swift */,
 			);
 			path = Model;
@@ -355,6 +355,7 @@
 				D2DC95F32B20558F008B005D /* ProfileLogout.swift in Sources */,
 				D2DC95DD2B1FBEFC008B005D /* DateFormatterExtensions.swift in Sources */,
 				D2D734A52B1632C600C1AA41 /* SheetDetailView.swift in Sources */,
+				D2B926932B23FB9600F7A9DE /* FavoritesManager.swift in Sources */,
 				D2DC95FD2B205679008B005D /* ProfileView2.swift in Sources */,
 				D2DC95F92B2055AF008B005D /* PrivacyPoliceViwe.swift in Sources */,
 				D2E6547A2B0BC0D50061B1BE /* LaunchScreenView.swift in Sources */,
@@ -364,12 +365,11 @@
 				D2E654A02B1299610061B1BE /* AudioDetailView.swift in Sources */,
 				D2E654662B0B7B610061B1BE /* SleepSoundsApp.swift in Sources */,
 				D2DC95FB2B2055B5008B005D /* LicenseAgreementView.swift in Sources */,
-				D2B926912B23B60C00F7A9DE /* FavoriteViwe.swift in Sources */,
+				D2B926912B23B60C00F7A9DE /* FavoriteView.swift in Sources */,
 				D2DC95DB2B1FAA0A008B005D /* AudioViewModel.swift in Sources */,
 				D2DC95F12B20557A008B005D /* LogineView.swift in Sources */,
 				D2DC95E92B20542D008B005D /* OnBoardingCustom.swift in Sources */,
 				D2DC95E72B2053D3008B005D /* OnBoardingView.swift in Sources */,
-				D2E654832B0D34400061B1BE /* DiscoverButtonModel.swift in Sources */,
 				D2DC95ED2B205545008B005D /* ProfileView.swift in Sources */,
 				D2DC96072B205699008B005D /* PremiumView.swift in Sources */,
 				D2B9268F2B239AFC00F7A9DE /* CreateAccountView.swift in Sources */,

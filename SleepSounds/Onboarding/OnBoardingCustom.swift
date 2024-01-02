@@ -16,7 +16,7 @@ struct OnBoardingCustom: View {
                 },
                        label: {
                     
-                    Text("Next-string")
+                    Text("Skip-string")
                         .foregroundColor(.white)
                         .bold()
                         .font(.title3)

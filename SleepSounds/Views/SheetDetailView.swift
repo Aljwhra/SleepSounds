@@ -11,8 +11,8 @@ struct SheetDetailView: View {
     
     @State var audioCard: AudioCardModel
     @State private var showPlayer = false
-    @State private var isFavorite = false
-    
+   // @State private var isFavorite = false
+   
     
     var body: some View{
         
@@ -34,13 +34,8 @@ struct SheetDetailView: View {
                         .foregroundStyle(.gray)
                     
                 }.frame(width: 370, alignment: .leading)
-                
-                Divider()
-                    .background(.gray)
-                    .frame(width: 350)
-                
-                
-                HStack(alignment: .center, spacing: 10){
+            
+                HStack(spacing: 10){
                     Button{
                         showPlayer = true
                     }label: {
@@ -53,22 +48,10 @@ struct SheetDetailView: View {
                         .cornerRadius(20)
                     }
                     .fullScreenCover(isPresented: $showPlayer){
-                        PlayerAudioView(audioCard: audioCard)
+                        PlayerAudioView(audioCard: audioCard, favoritesManager: FavoritesManager())
                     }
                   
-                    Button{
-                        isFavorite = true
-                    } label: {
-                     
-                        Label("Favorite" , systemImage: "star.fill")
-                        
-                        .padding(8)
-                        .frame(width: 164, alignment: .center)
-                        .background(Color("PrimeryColor"))
-                        .cornerRadius(20)
-                    }.fullScreenCover(isPresented: $isFavorite) {
-                        FavoriteViwe()
-                    }
+               
                     
                 }
                 .font(.title3)

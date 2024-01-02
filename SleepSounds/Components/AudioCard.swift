@@ -9,7 +9,8 @@ import SwiftUI
 
 struct AudioCard: View {
     
-    var audioCard: AudioCardModel
+     var audioCard: AudioCardModel
+  
     
     
     var body: some View {
