@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D21FD2182B28F381005C11DD /* AdventuresAlaska..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D21FD2172B28F381005C11DD /* AdventuresAlaska..mp3 */; };
 		D2B926542B208D3400F7A9DE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B926562B208D3400F7A9DE /* Localizable.strings */; };
 		D2B926592B21175200F7A9DE /* WoodBurning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B926582B21175200F7A9DE /* WoodBurning.mp3 */; };
 		D2B9265B2B21A5BB00F7A9DE /* twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B9265A2B21A5BB00F7A9DE /* twinkle.mp3 */; };
@@ -16,11 +17,6 @@
 		D2B9267F2B224D4000F7A9DE /* chillhop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B9267E2B224D4000F7A9DE /* chillhop.mp3 */; };
 		D2B926812B224DE600F7A9DE /* Library.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B926802B224DE600F7A9DE /* Library.mp3 */; };
 		D2B926832B2259D100F7A9DE /* theghost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B926822B2259D100F7A9DE /* theghost.mp3 */; };
-		D2B926852B225D0100F7A9DE /* pirateMisfortune.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B926842B225D0100F7A9DE /* pirateMisfortune.mp3 */; };
-		D2B926872B226D3500F7A9DE /* OceanWaves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B926862B226D3500F7A9DE /* OceanWaves.mp3 */; };
-		D2B926892B2270F600F7A9DE /* Flowy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B926882B2270F600F7A9DE /* Flowy.mp3 */; };
-		D2B9268B2B22765600F7A9DE /* AdventuresAlaska.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B9268A2B22765600F7A9DE /* AdventuresAlaska.mp3 */; };
-		D2B9268D2B227B3A00F7A9DE /* lullabygoodnight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B9268C2B227B3A00F7A9DE /* lullabygoodnight.mp3 */; };
 		D2B9268F2B239AFC00F7A9DE /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9268E2B239AFC00F7A9DE /* CreateAccountView.swift */; };
 		D2B926912B23B60C00F7A9DE /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B926902B23B60C00F7A9DE /* FavoriteView.swift */; };
 		D2B926932B23FB9600F7A9DE /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B926922B23FB9600F7A9DE /* FavoritesManager.swift */; };
@@ -62,6 +58,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D21FD2172B28F381005C11DD /* AdventuresAlaska..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AdventuresAlaska..mp3; sourceTree = "<group>"; };
 		D2B926552B208D3400F7A9DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D2B926572B208D8100F7A9DE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D2B926582B21175200F7A9DE /* WoodBurning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WoodBurning.mp3; sourceTree = "<group>"; };
@@ -72,11 +69,6 @@
 		D2B9267E2B224D4000F7A9DE /* chillhop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chillhop.mp3; sourceTree = "<group>"; };
 		D2B926802B224DE600F7A9DE /* Library.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Library.mp3; sourceTree = "<group>"; };
 		D2B926822B2259D100F7A9DE /* theghost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theghost.mp3; sourceTree = "<group>"; };
-		D2B926842B225D0100F7A9DE /* pirateMisfortune.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pirateMisfortune.mp3; sourceTree = "<group>"; };
-		D2B926862B226D3500F7A9DE /* OceanWaves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OceanWaves.mp3; sourceTree = "<group>"; };
-		D2B926882B2270F600F7A9DE /* Flowy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Flowy.mp3; sourceTree = "<group>"; };
-		D2B9268A2B22765600F7A9DE /* AdventuresAlaska.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AdventuresAlaska.mp3; sourceTree = "<group>"; };
-		D2B9268C2B227B3A00F7A9DE /* lullabygoodnight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lullabygoodnight.mp3; sourceTree = "<group>"; };
 		D2B9268E2B239AFC00F7A9DE /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		D2B926902B23B60C00F7A9DE /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		D2B926922B23FB9600F7A9DE /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
@@ -133,11 +125,7 @@
 		D2DC95E02B1FD366008B005D /* Audios */ = {
 			isa = PBXGroup;
 			children = (
-				D2B9268C2B227B3A00F7A9DE /* lullabygoodnight.mp3 */,
-				D2B9268A2B22765600F7A9DE /* AdventuresAlaska.mp3 */,
-				D2B926882B2270F600F7A9DE /* Flowy.mp3 */,
-				D2B926862B226D3500F7A9DE /* OceanWaves.mp3 */,
-				D2B926842B225D0100F7A9DE /* pirateMisfortune.mp3 */,
+				D21FD2172B28F381005C11DD /* AdventuresAlaska..mp3 */,
 				D2B926822B2259D100F7A9DE /* theghost.mp3 */,
 				D2B926802B224DE600F7A9DE /* Library.mp3 */,
 				D2B9267E2B224D4000F7A9DE /* chillhop.mp3 */,
@@ -322,7 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B926542B208D3400F7A9DE /* Localizable.strings in Resources */,
-				D2B926892B2270F600F7A9DE /* Flowy.mp3 in Resources */,
+				D21FD2182B28F381005C11DD /* AdventuresAlaska..mp3 in Resources */,
 				D2B926832B2259D100F7A9DE /* theghost.mp3 in Resources */,
 				D2B926812B224DE600F7A9DE /* Library.mp3 in Resources */,
 				D2B9267F2B224D4000F7A9DE /* chillhop.mp3 in Resources */,
@@ -330,14 +318,10 @@
 				D2DC95E52B1FDFE4008B005D /* Oceanwater.mp3 in Resources */,
 				D2B9267D2B223B1500F7A9DE /* HeavyRainstorm.mp3 in Resources */,
 				D2B9267B2B221E8800F7A9DE /* CheeseMoon.mp3 in Resources */,
-				D2B926852B225D0100F7A9DE /* pirateMisfortune.mp3 in Resources */,
-				D2B926872B226D3500F7A9DE /* OceanWaves.mp3 in Resources */,
-				D2B9268B2B22765600F7A9DE /* AdventuresAlaska.mp3 in Resources */,
 				D2E6546D2B0B7B620061B1BE /* Preview Assets.xcassets in Resources */,
 				D2B926592B21175200F7A9DE /* WoodBurning.mp3 in Resources */,
 				D2E6546A2B0B7B620061B1BE /* Assets.xcassets in Resources */,
 				D2DC95E22B1FD38A008B005D /* WindyInForest.mp3 in Resources */,
-				D2B9268D2B227B3A00F7A9DE /* lullabygoodnight.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
